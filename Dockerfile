@@ -7,7 +7,7 @@
 
 #DA FROM davexacom/ace11002mqc91soe:0.1
 #FROM default/ace11002mqc91soe:latest
-FROM https://hub.docker.com/r/davexacom/ace11002mqc91soe:0.1
+FROM hub.docker.com/r/davexacom/ace11002mqc91soe:0.1
 
 ENV BAR1=Microservice2.bar
 
