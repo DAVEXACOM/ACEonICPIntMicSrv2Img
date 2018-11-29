@@ -6,7 +6,7 @@
 # http://www.eclipse.org/legal/epl-v20.html
 
 #DA FROM davexacom/ace11002mqc91soe:0.1
-FROM davexacom/ace11002mqc91soe:latest
+FROM default/ace11002mqc91soe:latest
 
 ENV BAR1=Microservice2.bar
 
