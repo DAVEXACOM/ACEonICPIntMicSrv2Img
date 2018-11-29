@@ -5,9 +5,7 @@
 # which accompanies this distribution, and is available at
 # http://www.eclipse.org/legal/epl-v20.html
 
-#DA FROM davexacom/ace11002mqc91soe:0.1
-#FROM default/ace11002mqc91soe:latest
-#FROM hub.docker.com/r/davexacom/ace11002mqc91soe:0.1
+#DA FROM default/ace11002mqc91soe:latest
 FROM davexacom/ace11002mqc91soe:0.1
 
 ENV BAR1=Microservice2.bar
