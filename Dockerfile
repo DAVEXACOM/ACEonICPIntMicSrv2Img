@@ -5,8 +5,9 @@
 # which accompanies this distribution, and is available at
 # http://www.eclipse.org/legal/epl-v20.html
 
-FROM mycluster.icp:8500/default/ace11002mqc91soe:latest
-#DA FROM davexacom/ace11002mqc91soe:0.1
+# Choice of ICP private repository or dockerhub
+#DA FROM mycluster.icp:8500/default/ace11002mqc91soe:latest
+FROM davexacom/ace11002mqc91soe:latest
 
 ENV BAR1=Microservice2.bar
 
