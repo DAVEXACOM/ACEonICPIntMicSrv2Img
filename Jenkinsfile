@@ -4,7 +4,7 @@
 microserviceBuilderPipeline {
   image = 'ace11002mqc91intms2'
   mavenImage = 'wwdemo/images:maven-lab'
-  chartFolder = 'ibm-ace-dev'
+  chartFolder = 'https://github.com/DAVEXACOM/ACEonICPIntMicSrvHelm'
   deployBranch = 'master'
   namespace = 'default'
 }

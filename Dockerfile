@@ -19,6 +19,6 @@ COPY --chown=aceuser ./acesoe/binary/$BAR1 /tmp
 RUN bash -c 'mqsibar -w /home/aceuser/ace-server -a /tmp/$BAR1 -c'
 
 # Switch off the admin REST API for the server run, as we won't be deploying anything after start
-RUN sed -i 's/adminRestApiPort/#adminRestApiPort/g' /home/aceuser/ace-server/server.conf.yaml 
+#DA RUN sed -i 's/adminRestApiPort/#adminRestApiPort/g' /home/aceuser/ace-server/server.conf.yaml 
 
 # We inherit the command from the base layer
